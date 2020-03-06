@@ -1,2 +1,3 @@
-# hello-world
-my first repository for testing ideas such as commit and pull
+# CAMEL Cheat Sheet
+
+This repo hosts all cheat sheets needed when I work. Please feel free to use them and leave feedbacks.
