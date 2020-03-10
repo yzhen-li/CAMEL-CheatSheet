@@ -1,6 +1,9 @@
 ## Git
 
 #### Save username and password for a project
+```bash
+git config credential.helper store
+```
 
     $ git config credential.helper store
     $ git push http://example.com/repo.git
