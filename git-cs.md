@@ -1,6 +1,6 @@
 ## Git
 
-#### Save username and password for a project
+:camel:#### Save username and password for a project
 
 ```bash
 $ git config credential.helper store
