@@ -1,7 +1,18 @@
 ## Access jupyter notebook remotely
 
 ### server side
+
+- start server
     $ jupyter notebook --no-browser --port=XXXX
+    
+- list servers
+    $ jupyter notebook list
+
+- kill servers
+-- get PID
+    $ lsof -n -i4TCP:[port-number]
+-- kill by PID
+    $ kill -9 [PID]
 
 ### local side
     $ ssh -N -f -L localhost:YYYY:localhost:XXXX serveruser@serverhost
