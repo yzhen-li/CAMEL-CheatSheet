@@ -3,19 +3,29 @@
 ### server side
 
 - start server
-    $ jupyter notebook --no-browser --port=XXXX
+```bash
+$ jupyter notebook --no-browser --port=XXXX
+````
     
 - list servers
-    $ jupyter notebook list
+````bash
+$ jupyter notebook list
+````
 
 - kill servers
--- get PID
-    $ lsof -n -i4TCP:[port-number]
--- kill by PID
-    $ kill -9 [PID]
+1. get PID
+````bash
+$ lsof -n -i4TCP:[port-number]
+````
+2. kill by PID
+````bash
+$ kill -9 [PID]
+````
 
 ### local side
-    $ ssh -N -f -L localhost:YYYY:localhost:XXXX serveruser@serverhost
+````bash
+$ ssh -N -f -L localhost:YYYY:localhost:XXXX serveruser@serverhost
+````
 start a browser and use `localhost:YYYY` as entry point. please note that one needs to reestablish the connection using above command if there is any break or reconnection or change of local network settings.
 
 ### Reference
