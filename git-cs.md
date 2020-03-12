@@ -10,7 +10,7 @@ $ git push http://example.com/repo.git
 
 #### show number of codes per user in a repo
 ````bash
-    $ git ls-files | while read f; do git blame --line-porcelain $f | grep '^author '; done | sort -f | uniq -ic | sort -n
+$ git ls-files | while read f; do git blame --line-porcelain $f | grep '^author '; done | sort -f | uniq -ic | sort -n
 ````
 
 #### show number of changed lines between commits
