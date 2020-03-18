@@ -8,9 +8,9 @@ echo $SHELL
 bash
 
 zsh
-~/.zshenv
-~/.zprofile
-~/.zshrc
-~/.zlogin
-~/.zlogout
+* ~/.zshenv
+* ~/.zprofile
+* ~/.zshrc
+* ~/.zlogin
+* ~/.zlogout
 
