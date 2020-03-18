@@ -1,8 +1,4 @@
-check this article out about how to create python package on pypi.
-
-https://www.codementor.io/@arpitbhayani/host-your-python-package-using-github-on-pypi-du107t7ku
-
-https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7
+## create python package on pypi.
 
 build project (note the version in setup.py)
 ```bash
@@ -18,3 +14,8 @@ install using pypi test (note the version)
 ```bash
 pip install -i https://test.pypi.org/simple/ pyllama==0.0.4
 ```
+
+
+
+[Working Example](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7)
+[NOT Working Example](https://www.codementor.io/@arpitbhayani/host-your-python-package-using-github-on-pypi-du107t7ku)
