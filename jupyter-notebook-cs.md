@@ -13,14 +13,14 @@ $ jupyter notebook list
 ````
 
 - kill servers
-1. get PID
-````bash
-$ lsof -n -i4TCP:[port-number]
-````
-2. kill by PID
-````bash
-$ kill -9 [PID]
-````
+    1. get PID
+    ````bash
+    $ lsof -n -i4TCP:[port-number]
+    ````
+    2. kill by PID
+    ````bash
+    $ kill -9 [PID]
+    ````
 
 ### local side
 ````bash
