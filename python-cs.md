@@ -1,6 +1,6 @@
 ## python continuous integration tools
 
-used for packaging and testing and publishing python package.
+used for packaging and testing and publishing python package. check [this](https://docs.python-guide.org/scenarios/ci/) for some details.
 
 ### local
 1. tox
