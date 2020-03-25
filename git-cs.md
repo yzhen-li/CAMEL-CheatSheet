@@ -20,7 +20,7 @@ $ git diff --stat HEAD^ HEAD
 
 #### show number of changed files between commits
 ````bash
-$ git show --name-only HEAD^ HEAD
+$ git show --name-only HEAD^..HEAD
 ````
 
 #### fix .gitignore
