@@ -1,6 +1,6 @@
 ## check shell in use
 ```bash
-echo $SHELL
+$ echo $SHELL
 ```
 
 ## start up files for different shells
@@ -14,3 +14,12 @@ zsh
 * ~/.zlogin
 * ~/.zlogout
 
+## check RHEL version
+```bash
+$ cat /etc/redhat-release
+```
+
+## check Linux kernel version
+```bash
+$ uname -r
+```
