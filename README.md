@@ -124,6 +124,8 @@ $ echo $SHELL
 ### start up files for different shells
 
 bash
+* ~/.bashprofile
+* ~/.bashrc
 
 zsh
 * ~/.zshenv
@@ -144,8 +146,7 @@ $ uname -r
 
 ### best zsh config 
 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
-# vs code remote development
 
-## SSH
+## VS Code Development
 
-[Reference](https://code.visualstudio.com/docs/remote/ssh)
+[Remote Dev via SSH](https://code.visualstudio.com/docs/remote/ssh)
