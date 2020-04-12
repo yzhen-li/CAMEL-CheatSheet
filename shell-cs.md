@@ -23,3 +23,6 @@ $ cat /etc/redhat-release
 ```bash
 $ uname -r
 ```
+
+## best zsh config 
+[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
