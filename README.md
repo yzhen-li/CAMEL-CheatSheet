@@ -1,3 +1,7 @@
+[![GitHub license](https://img.shields.io/github/license/hamelsmu/code_search.svg)](https://github.com/zhenyisx/cheat-sheet/blob/master/LICENSE)
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![GitHub issues](https://img.shields.io/github/issues/hamelsmu/code_search.svg)](https://github.com/yzhen/cheat-sheet/issues)
+
 # Cheat Sheet
 
 This repo hosts all cheat sheets I have used. Please feel free to use them and leave feedbacks.
