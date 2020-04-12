@@ -1,5 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/hamelsmu/code_search.svg)](https://github.com/zhenyisx/cheat-sheet/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/hamelsmu/code_search.svg)](https://github.com/yzhen/cheat-sheet/issues)
+[![GitHub issues](https://img.shields.io/github/issues/hamelsmu/code_search.svg)](https://github.com/zhenyisx/cheat-sheet/issues)
 
 # Cheat Sheet
 
