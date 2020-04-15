@@ -187,13 +187,17 @@ $ uname -r
 
 ## docker
 
-### list all containers
+### list containers
 ```bash
 $ docker container ls
 ```
 or 
 ```bash
 $ docker ps
+```
+or
+```bash
+$ docker ps -a -f status=running # list all running containers
 ```
     
 ### get into the docker 
