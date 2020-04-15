@@ -86,6 +86,11 @@ $ jupyter notebook --no-browser --port=XXXX
 $ jupyter notebook list
 ````
 
+- stop servers
+````bash
+$ jupyter notebook stop
+````
+
 - kill servers
     1. get PID
     ````bash
