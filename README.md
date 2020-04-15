@@ -201,5 +201,14 @@ $ docker ps -a -f status=running # list all running containers
 ```
     
 ### get into the docker 
-    $ docker exec -it <container_name> bash # exit will NOT stop the container
-    $ docker attach <container_name> # exit will stop the container
+
+```bash
+$ docker exec -it <container_name> bash # exit will NOT stop the container
+$ docker attach <container_name> # exit will stop the container
+```
+    
+### run notebook in running container in the background
+
+```bash
+$ sudo docker exec -d <ocntainer_name> bash <path_in_container> # e.g., ../script/start_notebook.sh
+```
