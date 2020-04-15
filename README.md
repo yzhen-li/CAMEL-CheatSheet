@@ -153,3 +153,14 @@ $ uname -r
 ## VS Code Development
 
 [Remote Dev via SSH](https://code.visualstudio.com/docs/remote/ssh)
+
+## docker
+
+### list all containers
+    $ docker container ls
+or 
+    $ docker ps
+    
+### get into the docker 
+    $ docker exec -it <container_name> bash # exit will NOT stop the container
+    $ docker attach <container_name> # exit will stop the container
