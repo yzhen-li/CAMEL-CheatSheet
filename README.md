@@ -1,6 +1,37 @@
 [![GitHub license](https://img.shields.io/github/license/hamelsmu/code_search.svg)](https://github.com/zhenyisx/cheat-sheet/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/hamelsmu/code_search.svg)](https://github.com/zhenyisx/cheat-sheet/issues)
 
+Table of Contents
+=================
+
+   * [Cheat Sheet](#cheat-sheet)
+      * [Git](#git)
+         * [Save username and password for a repo](#save-username-and-password-for-a-repo)
+         * [show number of codes per user in a repo](#show-number-of-codes-per-user-in-a-repo)
+         * [show number of changed lines between commits](#show-number-of-changed-lines-between-commits)
+         * [show number of changed files between commits](#show-number-of-changed-files-between-commits)
+         * [fix .gitignore](#fix-gitignore)
+      * [jupyter notebook](#jupyter-notebook)
+         * [Access jupyter notebook remotely](#access-jupyter-notebook-remotely)
+            * [server side](#server-side)
+            * [local side](#local-side)
+            * [Reference](#reference)
+      * [latex](#latex)
+      * [create python package on pypi.](#create-python-package-on-pypi)
+      * [python continuous integration tools](#python-continuous-integration-tools)
+         * [local](#local)
+         * [master/worker](#masterworker)
+      * [shell](#shell)
+         * [check shell in use](#check-shell-in-use)
+         * [start up files for different shells](#start-up-files-for-different-shells)
+         * [check RHEL version](#check-rhel-version)
+         * [check Linux kernel version](#check-linux-kernel-version)
+         * [best zsh config](#best-zsh-config)
+      * [VS Code Development](#vs-code-development)
+      * [docker](#docker)
+         * [list all containers](#list-all-containers)
+         * [get into the docker](#get-into-the-docker)
+
 # Cheat Sheet
 
 This repo hosts all cheat sheets I have used. Please feel free to use them and leave feedbacks.
