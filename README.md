@@ -29,7 +29,7 @@ Table of Contents
          * [best zsh config](#best-zsh-config)
       * [VS Code Development](#vs-code-development)
       * [docker](#docker)
-         * [list all containers](#list-all-containers)
+         * [list containers](#list-containers)
          * [get into the docker](#get-into-the-docker)
 
 # Cheat Sheet
