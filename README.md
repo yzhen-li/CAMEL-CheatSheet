@@ -193,7 +193,7 @@ $ docker container ls
 ```
 or 
 ```bash
-    $ docker ps
+$ docker ps
 ```
     
 ### get into the docker 
