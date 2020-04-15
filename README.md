@@ -188,9 +188,13 @@ $ uname -r
 ## docker
 
 ### list all containers
-    $ docker container ls
+```bash
+$ docker container ls
+```
 or 
+```bash
     $ docker ps
+```
     
 ### get into the docker 
     $ docker exec -it <container_name> bash # exit will NOT stop the container
