@@ -192,6 +192,11 @@ $ uname -r
 
 ## docker
 
+### run docker 
+```bash
+$ sudo docker run -P -v "path_to_shared_local_directory":/home/jovyan/work/ -t cvbi/datascience-environment
+```
+
 ### list containers
 ```bash
 $ docker container ls
