@@ -194,7 +194,7 @@ $ uname -r
 
 ### run docker 
 ```bash
-$ sudo docker run -P -v "path_to_shared_local_directory":/home/jovyan/work/ -t cvbi/datascience-environment
+$ sudo docker run -P --name "serving ABC" -v "path_to_shared_local_directory":/home/jovyan/work/ 
 ```
 
 ### list containers
