@@ -207,6 +207,7 @@ $ docker ps -a -f status=running # list all running containers
     
 ### commit docker
 ```bash
+$ sudo docker login # you need to login docker before push
 $ sudo docker commit <container_name> new_image_name:tag_name(optional)
 ```
 ### get into the docker 
