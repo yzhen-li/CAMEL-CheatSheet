@@ -227,3 +227,7 @@ $ docker attach <container_name> # exit will stop the container
 ```bash
 $ sudo docker exec -d <ocntainer_name> bash <path_in_container> # e.g., ../script/start_notebook.sh
 ```
+
+## pandas
+tricks on pandas bar plot:
+https://robertmitchellv.com/blog-bar-chart-annotations-pandas-mpl.html
