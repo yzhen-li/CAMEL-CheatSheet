@@ -186,6 +186,12 @@ $ uname -r
 ### best zsh config 
 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
+### how to keep the terminal alive
+```bash
+$ while sleep 60; do echo "i am alive"; done
+```
+
+
 ## VS Code Development
 
 [Remote Dev via SSH](https://code.visualstudio.com/docs/remote/ssh)
