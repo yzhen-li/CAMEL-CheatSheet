@@ -1,6 +1,6 @@
 ---
 title: "Plot Alpha"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 # Introduction #
