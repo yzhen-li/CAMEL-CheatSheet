@@ -62,6 +62,11 @@ $ git diff --stat HEAD^ HEAD
 $ git show --name-only HEAD^..HEAD
 ````
 
+### one line
+````bash
+$ git log --pretty=oneline
+````
+
 ### fix .gitignore
 
 ````bash
