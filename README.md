@@ -66,6 +66,11 @@ $ git show --name-only HEAD^..HEAD
 ````bash
 $ git log --pretty=oneline
 ````
+or
+````bash
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+$ git lg
+````
 
 ### fix .gitignore
 
