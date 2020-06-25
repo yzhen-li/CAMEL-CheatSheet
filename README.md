@@ -89,6 +89,7 @@ $ git commit -m "fixing .gitignore"
 - start server
 ```bash
 $ jupyter notebook --no-browser --port=XXXX
+$ nohup jupyter lab &
 ````
     
 - list servers
@@ -105,6 +106,7 @@ $ jupyter notebook stop
     1. get PID
     ````bash
     $ lsof -n -i4TCP:[port-number]
+    $ lsof nohup.out
     ````
     2. kill by PID
     ````bash
